@@ -4,7 +4,6 @@ import com.google.gson.annotations.SerializedName;
 
 public class Todo {
     private Long id;
-    @SerializedName("userId")
     private Long userId;
     private String title;
     private Boolean completed;
